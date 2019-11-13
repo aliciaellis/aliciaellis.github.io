@@ -1,0 +1,364 @@
+<link rel="stylesheet" href="https://use.typekit.net/kyp3vtr.css">
+
+
+    body{
+      height: 100%;
+        margin:0;
+      }
+
+      h2{
+        margin: 0;
+      }
+
+
+
+      #title span{
+    text-align: right;
+    padding: 5px;
+    z-index: 1;
+    border-radius: 70px 0 0 50px;
+      }
+
+      #title{
+        padding-top: 10px;
+        vertical-align: top;
+        display: inline-block;
+        height:100%;
+        padding-left: 20px;
+        text-align: left;
+        font-size: 70px;
+        font-family: Abrush;
+
+      }
+
+legend{
+  font-size: 1.5em;
+  font-weight: 700px;
+}
+
+      .flex-link-nav{
+        display:inline-flex;
+      }
+
+      #navWrap{
+        height: 55px;
+        justify-content: space-around;
+        padding: 5px;
+        text-align: center;
+        background-color: #006670;
+
+
+      }
+
+      #container{
+        display:block;
+        text-align: center;
+    }
+
+      #newfoot{
+        margin-top:50px;
+        height:50px;
+        display: block;
+        margin-bottom:50px;
+      }
+
+      .navbar {
+        overflow: hidden;
+        font-family: 'Varela Round', sans-serif;
+        text-align: right;
+        border-radius: 2px;
+        background-color: #006670;
+
+    display: inline-block;
+    }
+
+
+
+    .navbar a {
+        float: right;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+
+
+  #wrap2{
+        text-align: center;
+        display: inline-block;
+      }
+
+
+    #wrap{
+      text-align: center;
+    }
+
+
+    html, body {
+        overflow-x: hidden;
+        height: 100%;
+    }
+    body {
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .flex-container-top {
+      display: flex;
+      justify-content:center;
+      flex-wrap: wrap;
+      align-items: flex-end;
+
+    }
+
+.tracStyle2{
+  flex-grow:1;
+  margin: 10px 0 10px 0;
+  justify-content: flex-start;
+  border-radius: 50%;
+  background-color: khaki;
+}
+
+.header h1{
+  font-family: rollerscript-rough, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #016670;
+}
+    .box{
+      margin: 0 20px 0 20px;
+      max-width:180px;
+      border:solid;
+      border-width: 1px;
+    }
+
+    .box2{
+      margin: 0 10px 0 10px;
+      max-width:300px;
+
+      border:solid;
+      border-width: 1px;
+      flex: 1;
+      background-color: #A2C7CB;
+
+    }
+
+    .hidden{
+      display: none;
+    }
+
+    .showThis{
+      display: flex;
+    }
+
+    body{
+      min-width: 300px;
+      background-color:#FDF1EB;
+    }
+
+    #myAccount{
+      text-align: left;
+    }
+    .endPage{
+      height:100%;
+      width: 100%;
+      min-width: 500px;
+      background: url(images/Web1920–7.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .tracStyle{
+      flex-grow:1;
+      margin: 10px 0 10px 0;
+      justify-content: flex-start;
+      border-radius: 50%;
+    }
+
+    .continue-button{
+      font-family: paralucent,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 17px;
+      display: flex;
+      overflow:auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #ff6f59;
+      color: white;
+    }
+
+    #stepLogin{
+      display:none;
+    }
+
+    #stepSeasonal{
+      display:none;
+    }
+    #stepAnnual{
+      display:none;
+    }
+
+    .box3{
+      margin: 0 10px 0 10px;
+      max-width:500px;
+      max-height: 500px;
+      border-width: 1px;
+      background-color: #A2C7CB;
+      padding: 20px 40px 20px 40px;
+    }
+
+    .box2:hover{
+      background-color: #fdf1eb;
+    }
+
+    .padthis{
+      padding: 20px 20% 20px 20%;
+    }
+
+    .flex-nav {
+      display: flex;
+      height: 300px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .navcollapse{
+      opacity:0;
+      height:0px;
+      transition: .5s ease;
+      color:grey;
+      margin-top: 5px;
+      text-align: center;
+      border-radius: 3px;
+      padding: 0px;
+    }
+
+    #burger {
+        flex-grow: 2;
+        justify-content: center;
+        cursor: pointer;
+        margin-left:35px;
+    }
+
+    .navcollapse.navexp{
+      height: 0;
+      opacity: 0;
+      margin-top:0;
+      overflow: hidden;
+    }
+
+    .navcollapse.navexp:hover{
+      background-color: black;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 0px;
+        height: 0px;
+        background-color: #fff;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+
+    .change .bar2 {opacity: 0;}
+
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+
+    #title1 span{
+      font-size: 0;
+    }
+  }
+
+  .navbar{
+    opacity:0;
+    width: 0;
+    height: 0;
+  }
+
+.navtext{
+  font-size:xx-large;
+  color: white;
+}
+
+  .navcollapse{
+    opacity: 1;
+    display: flex;
+    height: 50px;
+    border-radius: 0;
+    z-index: 2000;
+    position: relative;
+    padding: 10px;
+    font-size: 0.8em;
+  }
+
+
+
+  #title1 span{
+    font-size: 1.5em;
+      font-size-adjust: 600%;
+  }
+
+  .bar1, .bar2, .bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: #fff;
+      margin: 6px 0;
+      transition: 0.4s;
+  }
+
+  .navcollapse.navexp{
+    opacity: 0;
+  }
+
+  .change .navcollapse.navexp{
+    padding-left: 25px;
+    height: 35px;
+    opacity: 1;
+    width:70%;
+    background-color: white;
+    border-bottom: solid;
+  }
+
+  .change .navcollapse.navexp:hover{
+    padding-left: 25px;
+    height: 50px;
+    opacity: 1;
+    width:70%;
+    background-color: coral;
+  }
+
+  .navbar{
+    display: none;
+  }
+
+  @media all and (min-width: 780px) {
+      /* For desktop: */
+      #homeContent {
+        width: 40%;
+      }
+
+        .navbar{
+          display: inline-block;
+        }
+
+
+      .navcollapse{
+        display: none !important;
+      }
+}

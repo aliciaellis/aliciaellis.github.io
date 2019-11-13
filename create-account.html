@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="fit fab fun">
+  <title>fit fab fun</title>
+  <meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+  <body>
+    <div id="container">
+
+      <div class="flex-container-top" style="margin-top:15px;">
+        <div id="trackOne" class="tracStyle2">1</br><h3>Review</h3></div>
+        <div id="trackTwo" class="tracStyle2">2</br><h3>Login</h3></div>
+        <div id="trackThree" class="tracStyle">3</br><h3>Address</h3></div>
+        <div id="trackFour" class="tracStyle">4</br><h3>Payment</h3></div>
+
+      </div>
+      <div class="flex-container">
+            <div class="box3" onclick="myfunctiontwo(1)">
+              <div style="flex-grow:2;">
+                          <div style="flex-grow:2;">
+                            <form id="myAccount">
+
+    <legend>Create Account</legend>
+    <p>
+      <label>First Name</label></br>
+      <input type = "text"
+             id = "firstName"
+             value = "" />
+    </p>
+    <p>
+      <label>Last Name</label></br>
+      <input type = "text"
+             id = "lastName"
+             value = "" />
+    </p>
+    <p>
+      <label>Email</label></br>
+      <input type = "email"
+             id = "email"
+             value = "" />
+    </p>
+    <p>
+      <label>Password</label></br>
+      <input type = "password"
+              id = "myPwd"
+              value = "" />
+    </p>
+
+</form>
+
+        </div>
+          </br>
+          <div class="flex-container">
+          <button type="button" name="continue-button" onClick="validateAccount()" class="continue-button">CONTINUE</button>
+        </div>
+          </div>
+          </div>
+
+        </div>
+<div id="newfoot" style="background-color: white;">
+  <img style="height:100%; cursor:pointer;" src="images/fbbl.png" ></img>
+  <img style="height:100%; cursor:pointer;" src="images/instabl.png" ></img>
+</div>
+    </div>
+    <script src="index.js"></script>
+
+  </body>
+</html>
